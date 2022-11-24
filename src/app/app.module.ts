@@ -10,6 +10,7 @@ import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 import { ArabianFoodComponent } from './arabian-food/arabian-food.component';
 import { ChikkinsComponent } from './chikkins/chikkins.component';
 import { FoodAppNavbarComponent } from './food-app-navbar/food-app-navbar.component';
+import { FoodOrderComponent } from './food-order/food-order.component';
 
 const myRoute : Routes =[
   {
@@ -31,6 +32,10 @@ const myRoute : Routes =[
   {
     path: "chikkins",
     component: ChikkinsComponent
+  },
+  {
+    path: "order",
+    component: FoodOrderComponent
   }
 ]
 
@@ -42,7 +47,8 @@ const myRoute : Routes =[
     SignUpPageComponent,
     ArabianFoodComponent,
     ChikkinsComponent,
-    FoodAppNavbarComponent
+    FoodAppNavbarComponent,
+    FoodOrderComponent
   ],
   imports: [
     BrowserModule,

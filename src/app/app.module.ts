@@ -8,6 +8,7 @@ import { FoodOrderingAppComponent } from './food-ordering-app/food-ordering-app.
 import { IndianFoodComponent } from './indian-food/indian-food.component';
 import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 import { ArabianFoodComponent } from './arabian-food/arabian-food.component';
+import { ChikkinsComponent } from './chikkins/chikkins.component';
 
 const myRoute : Routes =[
   {
@@ -25,6 +26,10 @@ const myRoute : Routes =[
   {
     path: "arabian",
     component: ArabianFoodComponent
+  },
+  {
+    path: "chikkins",
+    component: ChikkinsComponent
   }
 ]
 
@@ -34,7 +39,8 @@ const myRoute : Routes =[
     FoodOrderingAppComponent,
     IndianFoodComponent,
     SignUpPageComponent,
-    ArabianFoodComponent
+    ArabianFoodComponent,
+    ChikkinsComponent
   ],
   imports: [
     BrowserModule,

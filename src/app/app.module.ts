@@ -9,6 +9,7 @@ import { IndianFoodComponent } from './indian-food/indian-food.component';
 import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 import { ArabianFoodComponent } from './arabian-food/arabian-food.component';
 import { ChikkinsComponent } from './chikkins/chikkins.component';
+import { FoodAppNavbarComponent } from './food-app-navbar/food-app-navbar.component';
 
 const myRoute : Routes =[
   {
@@ -40,7 +41,8 @@ const myRoute : Routes =[
     IndianFoodComponent,
     SignUpPageComponent,
     ArabianFoodComponent,
-    ChikkinsComponent
+    ChikkinsComponent,
+    FoodAppNavbarComponent
   ],
   imports: [
     BrowserModule,

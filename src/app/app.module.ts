@@ -11,6 +11,7 @@ import { ArabianFoodComponent } from './arabian-food/arabian-food.component';
 import { ChikkinsComponent } from './chikkins/chikkins.component';
 import { FoodAppNavbarComponent } from './food-app-navbar/food-app-navbar.component';
 import { FoodOrderComponent } from './food-order/food-order.component';
+import { FormsModule } from '@angular/forms';
 
 const myRoute : Routes =[
   {
@@ -53,7 +54,8 @@ const myRoute : Routes =[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

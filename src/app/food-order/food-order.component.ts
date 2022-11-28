@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./food-order.component.css']
 })
 export class FoodOrderComponent {
+  phone=""
+  email=""
 
+  order=()=>
+  {
+    let data:any ={
+
+      "phone":this.phone,
+      "email":this.email
+    
+    }
+    console.log(data)
+  }
 }

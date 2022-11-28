@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./food-ordering-app.component.css']
 })
 export class FoodOrderingAppComponent {
+  username=""
+  password=""
+
+  loginu=()=>
+  {
+    let data:any=
+    {
+
+      "username":this.username,
+      "password":this.password
+    
+    }
+
+    console.log(data)
+  }
 
 }
